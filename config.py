@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "29203260"))
 API_HASH = os.environ.get("API_HASH", "af65fe71de3f7bf8e82e2cc296c91d1b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002116780112"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002354113934"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6052897917"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5126795875"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,8 +32,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Hum123am:Hum123am@cluster
 DB_NAME = os.environ.get("DATABASE_NAME", "Emilia")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001886813820"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001924140046"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001842133632"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001850766501"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
